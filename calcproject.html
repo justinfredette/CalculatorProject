@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calc Project</title>
+</head>
+
+<body>
+  <h1>Calculator Project</h1>
+  <div id="mainCalc">
+    <form>
+      <input type="text" id="screen" disabled>
+      <br>
+      <input class="btn btn-med" id="buttons" value="C" onclick='toScreen("c")'>
+      <input class="btn btn-med" id="buttons" value="CE" onclick='backspace()'>
+      <input class="btn btn-med" id="buttons" value="^2" onclick='squared()'>
+      <input class="btn btn-med" id="buttons" value="+" onclick='toScreen("+")'>
+      <br>
+      <input class="btn btn-med" id="buttons" value="7" onclick='toScreen("7")'>
+      <input class="btn btn-med" id="buttons" value="8" onclick='toScreen("8")'>
+      <input class="btn btn-med" id="buttons" value="9" onclick='toScreen("9")'>
+      <input class="btn btn-med" id="buttons" value="-" onclick='toScreen("-")'>
+      <br>
+      <input class="btn btn-med" id="buttons" value="4" onclick='toScreen("4")'>
+      <input class="btn btn-med" id="buttons" value="5" onclick='toScreen("5")'>
+      <input class="btn btn-med" id="buttons" value="6" onclick='toScreen("6")'>
+      <input class="btn btn-med" id="buttons" value="*" onclick='toScreen("*")'>
+      <br>
+      <input class="btn btn-med" id="buttons" value="1" onclick='toScreen("1")'>
+      <input class="btn btn-med" id="buttons" value="2" onclick='toScreen("2")'>
+      <input class="btn btn-med" id="buttons" value="3" onclick='toScreen("3")'>
+      <input class="btn btn-med" id="buttons" value="/" onclick='toScreen("/")'>
+      <br>
+      <input class="btn btn-med" id="buttons" value="0" onclick='toScreen("0")'>
+      <input class="btn btn-med" id="buttons" value="." onclick='toScreen(".")'>
+      <input class="btn btn-med" id="equal" value="=" onclick='solution()'>
+    </form>
+  </div>
+  <br>
+  <footer>Coded by Justin Fredette</footer>
+</body>
+
+</html>

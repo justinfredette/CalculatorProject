@@ -1,0 +1,45 @@
+body {
+  background: url(http://wallpaper-gallery.net/images/high-resolution-blue-wallpaper/high-resolution-blue-wallpaper-8.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+#mainCalc {
+  background: #778899;
+  margin: 25px auto;
+  padding: 10px;
+  width: 220px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#screen {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 10em;
+  border: 1px solid black;
+  text-align: right;
+}
+
+#buttons {
+  width: 42px;
+  height: 35px;
+  margin: 1px;
+  border: 1px solid black;
+  border-radius: 7px;
+  text-align: center;
+  outline: none;
+}
+
+#equal {
+  width: 94px;
+  height: 40px;
+  margin: 1px;
+  border: 1px solid black;
+  border-radius: 7px;
+  outline: none;
+}
+
+footer {
+  color: white;
+}
